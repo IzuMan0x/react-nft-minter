@@ -4,7 +4,7 @@ import styles from "./App.module.css";
 function App() {
   return (
     <div className={styles["main-background"]}>
-      <WalletConnectModal />
+      <WalletConnectModal className="justify-center" />
     </div>
   );
 }

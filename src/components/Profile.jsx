@@ -1,3 +1,5 @@
+/* This is component is not used and just here for developmental reference */
+
 import {
   useAccount,
   useConnect,

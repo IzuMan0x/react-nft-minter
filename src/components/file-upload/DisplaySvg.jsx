@@ -4,7 +4,7 @@ import styles from "./DisplaySvg.module.css";
 
 const DisplaySVG = ({ svgFile }) => {
   return (
-    <div className={styles["image-container"]}>
+    <div className={`${styles["image-container"]} drop-shadow-3xl`}>
       {svgFile ? (
         <img src={URL.createObjectURL(svgFile)} alt="SVG Preview" />
       ) : (
